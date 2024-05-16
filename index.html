@@ -9,9 +9,15 @@
   <body>
     <div class="container">
       <div class="clock">
-        <div style="--clr: #ff3d58" class="hand"><i></i></div>
-        <div style="--clr: #00a6ff" class="hand"><i></i></div>
-        <div style="--clr: #ffffff" class="hand"><i></i></div>
+        <div style="--clr: #ff3d58; --h: 70px" id="hour" class="hand">
+          <i></i>
+        </div>
+        <div style="--clr: #00a6ff; --h: 80px" id="min" class="hand">
+          <i></i>
+        </div>
+        <div style="--clr: #ffffff; --h: 90px" id="sec" class="hand">
+          <i></i>
+        </div>
         <span style="--i: 1"><b>1</b></span>
         <span style="--i: 2"><b>2</b></span>
         <span style="--i: 3"><b>3</b></span>
@@ -26,5 +32,6 @@
         <span style="--i: 12"><b>12</b></span>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

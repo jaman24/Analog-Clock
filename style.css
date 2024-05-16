@@ -55,6 +55,6 @@ body {
   position: absolute;
   background-color: var(--clr);
   width: 4px;
-  height: 70px;
+  height: var(--h);
   border-radius: 8px;
 }
