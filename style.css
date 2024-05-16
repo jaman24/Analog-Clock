@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(21, 21, 21);
+  background-color: rgb(55, 52, 52);
   color: white;
 }
 .container {
@@ -44,6 +44,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background-color: #fff;
+  z-index: 2;
 }
 .hand {
   position: absolute;
